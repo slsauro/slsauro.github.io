@@ -3,7 +3,9 @@
             font-family:Arial;
             font-size:10px;
             color:0e0e0e;}
-            
+
+/*----------content---------*/   
+
          .content{
              margin:0 auto;
              width:1024px;
@@ -19,13 +21,33 @@
             color:#b96e99;}
         
         a:link, a:active, a:visited{
-color: #fdd4ec; text-decoration:none}
-a:hover{
-color:#bebebe;
-}
+            color: #fdd4ec; text-decoration:none}
+            a:hover{
+            color:#bebebe;
+             }
+
         .border{
             background-color:#e6fcff;
             width:auto;
             padding:5px;
             border-style:dotted;
             color:#fdd4ec;{
+             
+
+/*----------scrollbar---------*/
+
+      ::-webkit-scrollbar {
+            background-color: #ffffff;
+            height:8px;
+            width:5px
+            }
+ 
+      ::-webkit-scrollbar-thumb:vertical {
+            background-color:#eeeeee;
+            height:50px
+            }
+ 
+      ::-webkit-scrollbar-thumb:horizontal {
+            background-color:#ffffff;
+            height:8px!important
+             }
