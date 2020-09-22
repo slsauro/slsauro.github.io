@@ -1,4 +1,23 @@
-  body{
+ /*----------scrollbar---------*/
+
+      ::-webkit-scrollbar {
+            background-color: #ffffff;
+            height:8px;
+            width:5px
+            }
+ 
+      ::-webkit-scrollbar-thumb:vertical {
+            background-color:#eeeeee;
+            height:50px
+            }
+ 
+      ::-webkit-scrollbar-thumb:horizontal {
+            background-color:#ffffff;
+            height:8px!important
+             }
+
+
+        body{
             background-color:#fdd4ec;
             font-family:Arial;
             font-size:10px;
@@ -32,22 +51,4 @@
             padding:5px;
             border-style:dotted;
             color:#fdd4ec;{
-             
-
-/*----------scrollbar---------*/
-
-      ::-webkit-scrollbar {
-            background-color: #ffffff;
-            height:8px;
-            width:5px
-            }
- 
-      ::-webkit-scrollbar-thumb:vertical {
-            background-color:#eeeeee;
-            height:50px
-            }
- 
-      ::-webkit-scrollbar-thumb:horizontal {
-            background-color:#ffffff;
-            height:8px!important
-             }
+           
